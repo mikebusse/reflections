@@ -11,19 +11,26 @@ happens when you change the files.
 
 How can you use the staging area to make sure you have one commit per 
 logical change?
--
+-use git diff to check between the staging area and the working directory
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
--
+-when making experimental changes to the file. It is helpful because you can keep the main
+file on the master and keep working on the experimental file and possibly merge when the 
+experimedtal file is complete.
 
 How do the diagrams help you visualize the branch structure?
--
+-Helps you make sure that every change / commit is accounted for in a branch.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
--
+-Merging two branches keep the changes that were updated against the original 
+file, it keeps the files that were added to the original, deletes files that
+are in the original and not in new version. It is represented as a head because
+it contains all the newest updates on the data that were made a kept, it is the 
+commits of both branches since the split.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
--
+-Automatic merging shows where the conflict happens inside the file that contains
+the conflict.
