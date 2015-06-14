@@ -1,0 +1,35 @@
+First time using fc was a success! :) 6/14/15
+
+I was able to see what lines had been changed and was able to
+notice the spelling error myself.
+
+What do you think are the pros and cons of manually choosing when to
+create a commit, like you do in Git, vs having versions automatically
+saved, like Google docs does?
+-Less wasted commits, less useless history, more practical commits.
+
+Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat
+each file separately?
+-Git is made for code and programs that use multiple files cohesively 
+so it is good to store changes that affect the program as a whole, 
+while Google Docs is mainly used for single file use that is updated by 
+itself.
+
+How can you use the commands git log and git diff to view the history 
+of files?
+-you can get the log of all the commits made to the files and then view 
+the diffs by comparing the diff id's.
+
+How might using version control make you more confident to make changes 
+that could break something?
+-Now you can make changes and always revert back to a state that was 
+working, assuming that it was working before you commit new changes.
+
+Now that you have your workspace set up, what do you want to try using 
+Git for?
+-Having confidence to take chances and make changes that I normally 
+wouldn't feel comfortable making.  Being able to share and control 
+versions is important for working on bugs while a working version is 
+made public.
+
