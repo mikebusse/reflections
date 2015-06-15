@@ -12,3 +12,9 @@ locally or on GitHub and are parellel to the original/Master file, they are able
 4. What is the benefit of having a copy of the last known state of the remote stored locally?
 -To compare changes that might have been uploaded to GitHub by another person.
 
+5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+-I would have to manually keep track of all the changes and versions that were in use, as well as logs 
+that keep track of all the information that has been changed. I think it would be a lot harder to collaborate
+without Git or GitHub. The system keeps it so nice and organized to make changes, and has a solution for just 
+about ever circumstance imaginable.
+
