@@ -18,3 +18,9 @@ that keep track of all the information that has been changed. I think it would b
 without Git or GitHub. The system keeps it so nice and organized to make changes, and has a solution for just 
 about ever circumstance imaginable.
 
+6. When would you want to make changes in a separate branch rather than directly in master? What benefits does 
+each approach have?
+-I would take this approach to do experimental or a different version of the file, then merge it when I had the 
+changes that I wanted. Working directly in the master would mean that you have to make sure the code works 
+properly or someone who is makeing a pull will download your faulty code.
+
